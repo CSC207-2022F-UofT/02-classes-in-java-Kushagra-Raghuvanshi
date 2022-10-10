@@ -79,6 +79,14 @@ public class Silly implements Comparable<Silly>{
      *       strings (e.g. this.name = [first string] + [second string]).
      *       Make sure you document this method!
      */
+
+    /**
+     * Creates a new Silly object.
+     * This constructor takes two strings as arguments.
+     *
+     * @param first_string the first part for this Silly instance's name.
+     * @param second_string the second part for this Silly instance's name.
+     */
     public Silly(String first_string, String second_string) {
         this.name = first_string + second_string;
     }
